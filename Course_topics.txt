@@ -1,0 +1,121 @@
+1.Linux IPCs – Pipes, FIFOs, shared memory, semaphores and message queues programming.
+2.Focus will be on designing and developing programs and troubleshooting synchronization issues, races and deadlocks
+
+TARGET AUDIENCE :
+
+IT Professionals and/or Students who want to learn key skills for developing software applications on Linux systems and become a Linux Systems Developer
+
+
+LABS-ASSIGNMENTS: 
+
+Lab1 – Writing a program on File I/O operations with text and binary files and performance issues with the code design.
+Lab2 – Writing a program to check the limit of open files using /proc filesystem.
+Lab3 – Writing a program to use select call and its usage.
+Lab4 – Writing a program to synchronize access to a file using advisory file locking mechanisms.
+Lab5 – Design and implementation of multiprocess model which is used by many popular applications.
+Lab6 – Writing programs to create Zombies and Orphans and verification of their states using ps(1) command.
+Lab7 – Writing programs to get and set Process scheduling policy and priority.
+Lab8 – Design and implementation of a Daemon process.
+Lab9 – Writing program to memory map a file and do operation on that file.
+Lab10 – Writing programs to understand signals and handling them due to segmentation violations, sending signals from another terminal and restarting a failed system call due to signals.
+Lab11 – Design and implementation of shell Pipe mechanism.
+Lab12 – Writing programs to do IPCs using unnamed and named Pipes.
+Lab13 – Writing client-server programs using System V Message Queues and debugging and troubleshooting issues.
+Lab14 – Writing client-server programs using System V Shared Memory and debugging race conditions.
+Lab15 – Writing client-server programs using System V Semaphores and debugging synchronization conditions.
+
+
+
+1. INTRODUCTION TO UNIX:-
+
+
+Linux Layered Architecture
+Bootup Sequence
+File Tree & Types
+File Systems
+Super Block & Inode
+System Vs Function Calls
+System Call Sequence
+File descriptor table
+
+2. FILE MANAGEMENT  :-
+
+
+File related System Calls
+File Control Operations
+File Locking
+fcntl() calls
+
+3. PROCESS MANAGEMENT  :-
+
+
+Mode of Execution
+Address Space
+Context Switching
+Process Structure & States
+Scheduling & Priority
+Process Creation & Exec
+fork()/exec() calls
+
+
+4. MEMORY MANAGEMENT  :-
+
+Virtual Memory
+Paging & Swapping
+Memory Mapping
+Demand Paging
+
+5. SIGNALS VS. INTERRUPTS :-
+
+Signals in Unix
+Receiving a Signal
+Handling a Signal
+Signal System Calls
+
+
+6. USER VS DAEMON PROCESS :-
+
+Characteristics of a Daemon
+Writing a Daemon
+Timers & Resource Limits
+Interval Timers
+High Resolution Timers
+System calls for Timers
+Resource Limits
+Hard Limit / Soft Limit
+
+Why IPCs
+Type of IPC Mechanisms
+Primitive IPCs
+Pipes & FIFOs
+Full Duplex Pipes
+Persistence of Pipes & FIFOs
+Pros and Cons of Pipes/FIFOs
+Limitation of Pipes/FIFOs
+
+7. SYSTEM V IPCS
+
+IPC Attributes
+IPC Persistence
+Kernel Limits for these IPCs
+
+
+8. SHARED MEMORY
+
+Shared Memory System Calls
+Pros and Cons of Shared Memory
+
+
+9. MESSAGE QUEUES : 
+
+Message Queue System Calls
+Pros and Cons of Message Queues
+10. SEMAPHORES :
+
+Classical P() & V() Operations
+Binary & Counting Semaphores
+Semaphore System Calls
+Pros and Cons of Semaphores
+11. IPC CONTROL OPERATIONS :
+
+IPC Removal
